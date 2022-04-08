@@ -21,7 +21,7 @@ const result = (min = 1,max = 3)=>{
     let p3 = Math.floor(Math.random()*(max-min+1)) + min;
     let p4 = Math.floor(Math.random()*(max-min+1)) + min;
     
-    // res 1 is for every iteration
+    // res is for every iteration
     res[0] = [0,p1,p2,p3,p4];
     res[1] = [p1,-1,0,0,0];
     res[2] = [p2,0,-1,0,0];
